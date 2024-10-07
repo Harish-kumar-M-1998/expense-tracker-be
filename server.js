@@ -8,7 +8,7 @@ const expenseRoutes = require("./routes/expense");
 
 const app = express();
 const corsOptions = {
-  origin: 'https://expense-tracker-client-fe.netlify.app/', // Allow your Netlify frontend
+  origin: 'https://expense-tracker-client-fe.netlify.app', // Allow your Netlify frontend
   methods: ['GET', 'POST', 'PUT', 'DELETE'], // Specify allowed HTTP methods
   credentials: true, // Allow credentials (if needed)
 };
